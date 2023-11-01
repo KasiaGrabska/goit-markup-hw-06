@@ -680,9 +680,8 @@ header {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-name:hover {
+.user-name:focus {
     border-color: #4D5AE5;
-    fill: #4D5AE5;
 }
 .person-name:hover {
     fill: #4D5AE5;
@@ -759,7 +758,7 @@ header {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0 auto;
 }
-.privacy-span:checked {
+.check:checked + .accept-privacy span {
     background-color: #404BBF;
     fill: #f4f4fd;
     border: none;
