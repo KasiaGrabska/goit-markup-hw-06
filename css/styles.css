@@ -608,6 +608,7 @@ header {
 }
 .subscribe-form {
     display: flex;
+    gap: 24px;
 }
 .mail-form {
     width: 264px;
@@ -621,7 +622,6 @@ header {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
-    gap: 24px;
 }
 .mail-form::placeholder {
     color: #ffffff;
@@ -680,7 +680,7 @@ header {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-name:hover {
+.user-name:focus {
     border-color: #4D5AE5;
 }
 .div-name {
