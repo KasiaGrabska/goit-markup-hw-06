@@ -683,7 +683,7 @@ header {
 .user-name:focus {
     border-color: #4D5AE5;
 }
-.person-name:hover {
+.person-name:focus {
     fill: #4D5AE5;
 }
 .div-name {
